@@ -33,8 +33,6 @@
     margin: 0 auto;
   }
 
-  /* ... */
-
 article,
 form {
   text-align: left;
@@ -86,4 +84,19 @@ form {
   font-family: serif;
   margin: 0;
   padding: 0;
+}
+
+.flash {
+  padding: 20px;
+  margin: 20px;
+}
+
+.flash.error {
+  background-color: #ffa7ae;
+  color: #a02a36;
+}
+
+.flash.success {
+  background-color: #96faad;
+  color: #1c7530;
 }
